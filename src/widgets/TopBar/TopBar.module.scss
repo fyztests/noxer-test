@@ -1,0 +1,38 @@
+.topBar {
+  display: grid;
+  grid-template-columns: 90px 1fr 90px;
+  justify-content: space-between;
+  column-gap: 10px;
+  justify-items: end;
+
+  margin-bottom: 15px;
+}
+
+.leftButton {
+  justify-self: start;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  padding: 3px 7px 3px 3px;
+  column-gap: 6px;
+  font-size: 13px;
+  line-height: 1.05;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-xl);
+  color: var(--color-black);
+  justify-self: center;
+}
+
+.linkIcon {
+  color: var(--color-white);
+}
+
+.buttonsWrapper {
+  display: flex;
+  background-color: var(--color-transparent-gray-2);
+  column-gap: 11px;
+  border-radius: var(--border-radius-m);
+  padding: 11px 14px;
+}

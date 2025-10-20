@@ -1,0 +1,169 @@
+.searchWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form {
+  z-index: 10;
+}
+
+.oftenSearchesWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+}
+
+.oftenSearchesTitle {
+  color: var(--color-black);
+  font-size: 15px;
+  line-height: 1.15;
+  font-weight: 700;
+  margin: 0;
+}
+
+.oftenSearchesList {
+  list-style-type: none;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  overflow: hidden;
+}
+
+.oftenSearchesItem {
+  display: flex;
+}
+
+.oftenSearchesItemButton {
+  position: relative;
+  border: none;
+  border-radius: unset;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  width: 100%;
+
+  color: var(--color-black);
+  font-size: 15px;
+  line-height: 1.15;
+  font-weight: 400;
+
+  padding: 10px 10px 10px 0;
+
+  &:before {
+    content: '';
+    background-color: var(--color-gray-5);
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    bottom: -1px;
+  }
+}
+
+.oftenSearchesItemButtonIcon {
+  color: var(--color-gray-5)
+}
+
+
+.searchButton {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  z-index: 15;
+}
+
+.products {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  background-color: var(--color-white);
+  padding: 60px 20px 20px;
+  width: 100%;
+
+  border-top-left-radius: var(--border-radius-l);
+  border-top-right-radius: var(--border-radius-l);
+  border-bottom-left-radius: var(--border-radius-xs);
+  border-bottom-right-radius: var(--border-radius-xs);
+}
+
+.product {
+  display: flex;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.itemImage {
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--border-radius-xxs);
+  margin-right: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px;
+  justify-content: space-between;
+}
+
+.priceWrapper {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.price {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.oldPrice {
+  position: relative;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 500;
+  color: var(--color-gray-6);
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-gray-6);
+  }
+}
+
+.discount {
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 600;
+  color: var(--color-red);
+}
+
+.cardTitle {
+  display: flex;
+  font-size: 13px;
+  line-height: 1.15;
+  font-weight: 400;
+
+  // обрезает текст
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

@@ -1,0 +1,48 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 1;
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: var(--border-radius-m);
+  cursor: pointer;
+}
+
+.buttonGhost {
+  padding: 11px 14px;
+  font-size: 11px;
+  line-height: 1;
+  gap: 4px;
+  color: var(--color-gray-1);
+  background-color: var(--color-transparent-gray-2);
+}
+
+.buttonIcon {
+  padding: 0;
+}
+
+.buttonIconSmall {
+  color: var(--color-gray-1);
+  padding: 0;
+  border: none;
+}
+
+.buttonLight {
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1.15;
+
+  background-color: var(--color-light-1);
+}
+
+.buttonDark {
+  background-color: var(--color-black);
+  font-size: 12px;
+  line-height: 1;
+  padding: 10px 14px;
+  color: var(--color-white);
+}
+

@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  padding: 2px 5px;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  background-color: var(--color-light-1);
+  color: var(--color-black);
+}
+
+input,
+label,
+button {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 2px dashed var(--color-black);
+  outline-offset: 4px;
+  transition-duration: 0s !important;
+}

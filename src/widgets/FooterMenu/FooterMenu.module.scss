@@ -1,0 +1,36 @@
+.nav {
+  list-style: none;
+  margin: 0;
+
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 16px 28px;
+
+  background-color: var(--color-transparent-light-1);
+  border-radius: var(--border-radius-l);
+  border: var(--border-1);
+  position: fixed;
+  bottom: 18px;
+
+  backdrop-filter: blur(30px) saturate(30%);
+  -webkit-backdrop-filter: blur(30px) saturate(30%); //сафари
+
+  overflow: hidden;
+}
+
+.navigation {
+  display: flex;
+}
+
+.link {
+  svg {
+    color: var(--color-gray-4)
+  }
+}
+
+.active {
+  svg {
+    color: var(--color-black);
+  }
+}

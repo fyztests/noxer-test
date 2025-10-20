@@ -1,0 +1,38 @@
+.field {
+  position: relative;
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius-l);
+  overflow: hidden;
+}
+
+.input {
+  padding: 11px 11px 11px 47px;
+  width: 100%;
+  border: none;
+  height: var(--input-height);
+
+  &:focus {
+    &::placeholder {
+      color: transparent;
+    }
+  }
+
+  &::placeholder {
+    color: var(--color-gray-5);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1.15;
+    font-weight: 400;
+  }
+}
+
+.icon {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-gray-5);
+}
+
