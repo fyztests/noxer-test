@@ -1,7 +1,7 @@
 import Button from '@/shared/ui/Button'
-import BaseIcon from '@/shared/ui/icons/IconBase';
+import IconBase from '@/shared/ui/icons/IconBase'
 import styles from './TopBar.module.scss'
-import useSearch from '@/entities/search/useSearch';
+import useSearch from '@/entities/search/useSearch'
 
 
 const TopBar = () => {
@@ -20,7 +20,7 @@ const TopBar = () => {
         variant='ghost'
         onClick={() => setIsSearchFocused(false)}
       >
-        <BaseIcon
+        <IconBase
           name={icon}
           width={9}
           height={9}
@@ -33,7 +33,7 @@ const TopBar = () => {
         href="https://t.me/noxerai_bot"
         target="_blank"
       >
-        <BaseIcon
+        <IconBase
           className={styles.linkIcon}
           name='tgBig'
           width={24}
@@ -44,14 +44,14 @@ const TopBar = () => {
       </a>
       <div className={styles.buttonsWrapper}>
         <Button variant='iconSmall'>
-          <BaseIcon
+          <IconBase
             name='arrowDown'
             width={14}
             height={8}
           />
         </Button>
         <Button variant='iconSmall'>
-          <BaseIcon
+          <IconBase
             name='moreDots'
             width={13}
             height={8}

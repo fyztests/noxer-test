@@ -1,10 +1,10 @@
 import {memo} from 'react'
 import CatalogItem from '@/entities/catalog/ui/CatalogItem';
-import styles from './CatalogList.module.scss'
-import BaseIcon from '@/shared/ui/icons/IconBase';
+import IconBase from '@/shared/ui/icons/IconBase'
 import {useInfiniteProducts} from '@/entities/catalog/model/useInfiniteProducts';
-import Button from '@/shared/ui/Button';
-import type {FilterBody} from '@/shared/types/filter';
+import Button from '@/shared/ui/Button'
+import type {FilterBody} from '@/shared/types/filter'
+import styles from './CatalogList.module.scss'
 
 type Props = {
   filters: FilterBody
@@ -68,7 +68,7 @@ const CatalogList = ({ filters }: Props) => {
             href="https://t.me/noxerai_bot"
             target="_blank"
           >
-            <BaseIcon
+            <IconBase
               className={styles.linkIcon}
               name='tgSmall'
               width={11}
