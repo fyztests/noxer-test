@@ -1,126 +1,49 @@
-# ---------------------------
-# ОС / редакторы / IDE
-# ---------------------------
+### OS
 .DS_Store
 Thumbs.db
 ehthumbs.db
-Icon?
-.Spotlight-V100
-.Trashes
-*.swp
-*.swo
-*~
+
+### Editors / IDE
 .vscode/
 .idea/
 *.iml
+*.swp
+*.swo
+*~
 
-# ---------------------------
-# Node / пакеты / менеджеры
-# ---------------------------
+### Node / Packages
 node_modules/
 .npm/
-.pnp/
 .pnpm-store/
-.pnp.cjs
-.pnp.data.json
-.pnpm-debug.log*
+npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-npm-debug.log*
+.pnpm-debug.log*
 bun.lockb
-# Обычно lock-файлы КОММИТЯТ. Если нужно — раскомментируй одну строку ниже.
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
 
-# ---------------------------
-# Билд/кэш (Vite, CRA, Next, Parcel, Turborepo)
-# ---------------------------
+### Build / Vite caches / Vercel
 dist/
-build/
-out/
-.next/
-.vercel/
-.netlify/
-.parcel-cache/
 .vite/
-.vitepress/cache/
-.vite-inspect/
-.turbo/
-coverage/
-storybook-static/
-.temp/
-.cache/
-.eslintcache
-.stylelintcache
+.vercel/
 
-# ---------------------------
-# Тесты / e2e / репорты
-# ---------------------------
-coverage/
-.nyc_output/
-cypress/videos/
-cypress/screenshots/
-cypress/downloads/
-playwright-report/
-playwright/.cache/
-test-results/
-*.lcov
-
-# ---------------------------
-# Lint/Typecheck/Bundle анализ
-# ---------------------------
-tsbuildinfo*.tsbuildinfo
-*.tsbuildinfo
-.log/
+### Logs
 *.log
-eslint-report.*
-stylelint-report.*
-report.html
-stats.json
+*.log.*
 
-# ---------------------------
-# Env/секреты (оставь .env.example)
-# ---------------------------
+### Env / Secrets (оставь .env.example)
 .env
 .env.*
 !.env.example
-# локальные overrides (Next/Vite/CRA читают их автоматически)
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-
-# Иногда .npmrc/.yarnrc содержат токены — лучше игнорировать
 .npmrc
 .yarnrc
 .yarnrc.yml
 
-# ---------------------------
-# Изображения/медиа артефакты сборки
-# ---------------------------
-*.orig
-*.rej
-
-# ---------------------------
-# Докер/контейнеры (если не используешь — можно удалить секцию)
-# ---------------------------
-docker-data/
-*.pid
-*.seed
-
-# ---------------------------
-# Storybook
-# ---------------------------
-.storybook-out/
-*.storybook-cache/
-.storybook-cache/
-
-# ---------------------------
-# Misc инструменты
-# ---------------------------
+### TypeScript / Misc
+*.tsbuildinfo
+tsbuildinfo*.tsbuildinfo
 .tmp/
 tmp/
-.sass-cache/
-.cache-loader/
-.browserslistrc.canonical
