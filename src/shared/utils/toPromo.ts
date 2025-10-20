@@ -1,4 +1,4 @@
-import type {PromoItem, UnformattedAction} from '@/shared/types/promos.ts';
+import type {PromoItem, UnformattedAction} from '@/shared/types/promos';
 
 const makeAriaLabel = (action: UnformattedAction) => {
   return (action.description ?? 'Акция').trim()

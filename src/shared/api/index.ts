@@ -4,7 +4,7 @@ import type {UnformattedCategory} from '@/shared/types/categories';
 import {toCategory} from '@/shared/utils/toCategory'
 import {toPromo} from '@/shared/utils/toPromo'
 import type {PromoItem, UnformattedAction} from '@/shared/types/promos'
-import type {FilterBody, FilteredPage, FilterParams, FilterResponse} from '@/shared/types/filter.ts';
+import type {FilterBody, FilteredPage, FilterParams, FilterResponse} from '@/shared/types/filter';
 
 const URL = 'https://noxer-test.ru/webapp/api/products'
 const PER_PAGE = 50

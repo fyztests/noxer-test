@@ -1,10 +1,10 @@
 import {memo} from 'react'
 import CatalogItem from '@/entities/catalog/ui/CatalogItem';
 import styles from './CatalogList.module.scss'
-import BaseIcon from '@/shared/ui/icons/BaseIcon.tsx';
-import {useInfiniteProducts} from '@/entities/catalog/model/useInfiniteProducts.ts';
+import BaseIcon from '@/shared/ui/icons/BaseIcon';
+import {useInfiniteProducts} from '@/entities/catalog/model/useInfiniteProducts';
 import Button from '@/shared/ui/Button';
-import type {FilterBody} from '@/shared/types/filter.ts';
+import type {FilterBody} from '@/shared/types/filter';
 
 type Props = {
   filters: FilterBody

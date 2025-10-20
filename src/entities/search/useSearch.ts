@@ -1,5 +1,5 @@
 import {useContext} from 'react';
-import {SearchContext} from '@/entities/search/SearchContext.tsx';
+import {SearchContext} from '@/entities/search/SearchContext';
 
 const useSearch = () => {
   const searchContext = useContext(SearchContext)

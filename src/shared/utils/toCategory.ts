@@ -1,4 +1,4 @@
-import type {Category, UnformattedCategory} from '@/shared/types/categories.ts';
+import type {Category, UnformattedCategory} from '@/shared/types/categories';
 
 const getImageUrl = (category: UnformattedCategory) => {
   const imageUrl = category.Category_Image?.trim()

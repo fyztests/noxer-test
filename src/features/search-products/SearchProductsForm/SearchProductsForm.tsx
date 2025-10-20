@@ -1,7 +1,7 @@
 import Field from '@/shared/ui/Field'
 import { useContext, useEffect } from 'react'
 import { CatalogContext } from '@/entities/catalog/model/CatalogContext'
-import IconBase from '@/shared/ui/icons/BaseIcon.tsx'
+import IconBase from '@/shared/ui/icons/BaseIcon'
 import Button from '@/shared/ui/Button'
 import useSearch from '@/entities/search/useSearch'
 import productsAPI from '@/shared/api'

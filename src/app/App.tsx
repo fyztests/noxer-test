@@ -1,5 +1,5 @@
 import './styles'
-import CatalogPage from '@/pages/CatalogPage/CatalogPage.tsx'
+import CatalogPage from '@/pages/CatalogPage/CatalogPage'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import AppQueryProvider from '@/app/providers/QueryClientProvider'
 import FooterMenu from '@/widgets/FooterMenu'
