@@ -1,7 +1,7 @@
 import {memo} from 'react'
 import CatalogItem from '@/entities/catalog/ui/CatalogItem';
 import styles from './CatalogList.module.scss'
-import BaseIcon from '@/shared/ui/icons/BaseIcon';
+import BaseIcon from '@/shared/ui/icons/IconBase';
 import {useInfiniteProducts} from '@/entities/catalog/model/useInfiniteProducts';
 import Button from '@/shared/ui/Button';
 import type {FilterBody} from '@/shared/types/filter';

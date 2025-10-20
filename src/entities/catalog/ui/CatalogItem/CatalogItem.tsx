@@ -2,7 +2,7 @@ import type {ProductCard} from '@/shared/types/product'
 import {memo, useState} from 'react'
 import styles from './CatalogItem.module.scss'
 import Button from '@/shared/ui/Button';
-import IconBase from '@/shared/ui/icons/BaseIcon';
+import IconBase from '@/shared/ui/icons/IconBase';
 import classNames from 'classnames';
 
 type CatalogItemProps = {

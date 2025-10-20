@@ -1,5 +1,5 @@
 import Button from '@/shared/ui/Button'
-import BaseIcon from '@/shared/ui/icons/BaseIcon';
+import BaseIcon from '@/shared/ui/icons/IconBase';
 import styles from './TopBar.module.scss'
 import useSearch from '@/entities/search/useSearch';
 
