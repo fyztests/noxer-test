@@ -1,6 +1,6 @@
 import {memo} from 'react'
 import CatalogItem from '@/entities/catalog/ui/CatalogItem';
-import IconBase from '@/shared/ui/icons/IconBase'
+import IconBase from '@/shared/ui/IconBase/IconBase'
 import {useInfiniteProducts} from '@/entities/catalog/model/useInfiniteProducts';
 import Button from '@/shared/ui/Button'
 import type {FilterBody} from '@/shared/types/filter'

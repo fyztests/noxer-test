@@ -1,0 +1,10 @@
+.baseIcon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: var(--icon-color, currentColor);
+}
+
+.isFill :where(svg, svg *) {
+  fill: currentColor;
+  stroke: currentColor;
+}

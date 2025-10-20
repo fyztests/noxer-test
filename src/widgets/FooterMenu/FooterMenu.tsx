@@ -1,5 +1,5 @@
 import Button from '@/shared/ui/Button';
-import IconBase, {type IconName} from '@/shared/ui/icons/IconBase'
+import IconBase, {type IconName} from '@/shared/ui/IconBase/IconBase'
 import { NavLink } from 'react-router-dom'
 import classNames from 'classnames'
 import styles from './FooterMenu.module.scss'
